@@ -18,4 +18,11 @@ To Develope an Android standalone container, that displays a list of Contextual 
 * DESIGN: https://www.figma.com/file/AvK2BRGwMTv4kQab5ymJ0K/AAL3-%3A-Android-assignment-Design-Specs?node-id=0%3A1
 
 # Output:
+* 1
 ![alt text](./screenshot/42.jpeg)
+
+* 2
+![alt text](./screenshot/43.jpeg)
+
+* 3
+![alt text](./screenshot/44.jpeg)
