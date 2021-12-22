@@ -14,5 +14,5 @@ To Develope an Android standalone container, that displays a list of Contextual 
 
 # Resources
 
-*API: https://run.mocky.io/v3/fefcfbeb-5c12-4722-94ad-b8f92caad1ad
-*DESIGN: https://www.figma.com/file/AvK2BRGwMTv4kQab5ymJ0K/AAL3-%3A-Android-assignment-Design-Specs?node-id=0%3A1
+* API: https://run.mocky.io/v3/fefcfbeb-5c12-4722-94ad-b8f92caad1ad
+* DESIGN: https://www.figma.com/file/AvK2BRGwMTv4kQab5ymJ0K/AAL3-%3A-Android-assignment-Design-Specs?node-id=0%3A1
