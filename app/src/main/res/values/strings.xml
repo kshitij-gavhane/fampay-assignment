@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Fampay Card</string>
+    <string name="dismiss_now">Dismiss now</string>
+    <string name="remind_later">Remind later</string>
+    <string name="fampay">Fampay</string>
+</resources>

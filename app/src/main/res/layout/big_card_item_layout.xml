@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/big_card_items_rl"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/remind_later_cv"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="75dp"
+        android:visibility="gone"
+        android:theme="@style/Theme.MaterialComponents.DayNight"
+        app:cardBackgroundColor="#EEEEEE"
+        app:cardCornerRadius="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="8dp"
+            android:text="@string/remind_later"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            app:drawableTopCompat="@drawable/ic_remind_later" />
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/dismiss_now_cv"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_below="@id/remind_later_cv"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="60dp"
+        android:visibility="gone"
+        android:theme="@style/Theme.MaterialComponents.DayNight"
+        app:cardBackgroundColor="#EEEEEE"
+        app:cardCornerRadius="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="8dp"
+            android:text="@string/dismiss_now"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            app:drawableTopCompat="@drawable/ic_dismiss_now" />
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/big_card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="4dp"
+        android:background="#454aa6"
+        android:theme="@style/Theme.MaterialComponents.DayNight"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="10dp"
+        app:cardUseCompatPadding="true">
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp">
+
+            <ImageView
+                android:id="@+id/big_card_iv"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/big_card_asset"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.052"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/big_card_display_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:textColor="@android:color/holo_orange_light"
+                android:textSize="24sp"
+                app:layout_constraintStart_toStartOf="@+id/big_card_iv"
+                app:layout_constraintTop_toBottomOf="@+id/big_card_iv"
+                tools:text="Big Card Display" />
+
+            <TextView
+                android:id="@+id/with_action_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:textSize="24sp"
+                app:layout_constraintStart_toStartOf="@+id/big_card_display_tv"
+                app:layout_constraintTop_toBottomOf="@+id/big_card_display_tv"
+                tools:text="with action" />
+
+            <TextView
+                android:id="@+id/description_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:paddingEnd="8dp"
+                android:paddingStart="8dp"
+                android:textColor="@android:color/white"
+                app:layout_constraintStart_toStartOf="@+id/with_action_tv"
+                app:layout_constraintTop_toBottomOf="@+id/with_action_tv"
+                tools:text="desc" />
+
+            <Button
+                android:id="@+id/big_card_action_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="12dp"
+                android:background="@drawable/button_curved"
+                android:textColor="@android:color/white"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/description_tv"
+                app:layout_constraintTop_toBottomOf="@+id/description_tv"
+                tools:text="Action" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+</RelativeLayout>
