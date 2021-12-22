@@ -19,4 +19,4 @@ To Develope an Android standalone container, that displays a list of Contextual 
 
 # Output:
 
-<img src="./screenshot/42.jpeg" width="300" /><img src="./screenshot/43.jpeg" width="300" /><img src="./screenshot/44.jpeg" width="300" />
+<img src="./screenshot/42.jpeg" width="300" />_______<img src="./screenshot/43.jpeg" width="300" />_______<img src="./screenshot/44.jpeg" width="300" />
