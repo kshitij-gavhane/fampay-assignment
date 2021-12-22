@@ -11,3 +11,8 @@ To Develope an Android standalone container, that displays a list of Contextual 
 - [x] On tapping "remind later" action on a card, it should be removed from the display.
 - [x] On tapping "dismiss now" action, it should be removed from the display. This card should never be visible again.
 - [x] On long press of Big Display Card (HC3), it should slide to the right and display action buttons as per the design
+
+# Resources
+
+*API: https://run.mocky.io/v3/fefcfbeb-5c12-4722-94ad-b8f92caad1ad
+*DESIGN: https://www.figma.com/file/AvK2BRGwMTv4kQab5ymJ0K/AAL3-%3A-Android-assignment-Design-Specs?node-id=0%3A1
