@@ -26,3 +26,5 @@ To Develope an Android standalone container, that displays a list of Contextual 
 
 * 3
 ![alt text](./screenshot/44.jpeg)
+
+<img src="./Screenshots/42.jpeg" width="300" />____________<img src="./Screenshots/43.jpeg" width="300" />____________<img src="./Screenshots/44.jpeg" width="300" />
